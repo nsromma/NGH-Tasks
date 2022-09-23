@@ -13,11 +13,12 @@ In the health sector, where data management and security, data privacy is on hig
  - Creating security groups to restrict access to the instances.
  - The use of private subnets for your instances.
  - Using e.g NAT, bastion hosts to access internet from your private subnet.
- -  Using different subnets for different applications e.g data, web, etc.
- -  Using different instances for different tasks.
+ - Using different subnets for different applications e.g data, web, etc.
+ - Accessing the entire infrastructure through a VPN 
+ - Using different instances for different tasks.
  
  ## For data protection
- - Always use multi-factor authentication.
+ - Enforce global use of multi-factor authentication (MFA).
  - Use SSL/TLS when communicating with other AWS services.
  - Using API and user activity logging with AWS CloudTrail will also help in monitoring your infrastructure.
  - Customer details e.g email addresse, names, etc should not be used as tags, etc.
