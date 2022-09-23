@@ -21,3 +21,6 @@ In the health sector, where data management and security, data privacy is on hig
  - Use SSL/TLS when communicating with other AWS services.
  - Using API and user activity logging with AWS CloudTrail will also help in monitoring your infrastructure.
  - Customer details e.g email addresse, names, etc should not be used as tags, etc.
+ 
+ ## IP Addresses
+ In this public repo, the ip addresses stated in the task have been changed in the variable.tf file due to security issues.
