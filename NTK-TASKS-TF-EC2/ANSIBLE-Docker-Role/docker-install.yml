@@ -1,0 +1,7 @@
+# Ansible playbook AWS - install docker
+---
+- name: "AWS - Install docker on EC2 created by Terraform"
+  hosts: ntk-server
+  become: yes
+  
+    

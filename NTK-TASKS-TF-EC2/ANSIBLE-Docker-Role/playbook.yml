@@ -1,0 +1,6 @@
+---
+- name: "AWS - Install docker on EC2 created by Terraform"
+  hosts: ntk-server
+  become: true  
+  roles:
+    - role: 'C:\Users\35846\NGH-TASKS-TF-EC2\ANSIBLE-Docker-Role'
